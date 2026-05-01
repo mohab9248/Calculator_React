@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import "./Display.css";
 
-function Display() {
+function Display({ value }) {
   return (
-    <div>Display</div>
-  )
+    <div className="display">
+      <span className="display-value">{value}</span>
+    </div>
+  );
 }
 
-export default Display
+export default Display;

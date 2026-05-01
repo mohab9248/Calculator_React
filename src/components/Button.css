@@ -1,0 +1,40 @@
+.button {
+  background: #3b3b55;
+  border: none;
+  color: white;
+  font-size: 1.5rem;
+  padding: 20px 0;
+  cursor: pointer;
+  transition: background 0.2s ease;
+  text-align: center;
+  outline: none;
+}
+
+.button:hover {
+  background: #4e4e6e;
+}
+
+.button:active {
+  background: #2a2a3c;
+}
+
+.operator {
+  background: #ff9500;
+  color: white;
+}
+
+.operator:hover {
+  background: #e08600;
+}
+
+.action {
+  background: #5c5c7a;
+}
+
+.equal {
+  background: #ff9500;
+}
+
+.zero {
+  grid-column: span 2;
+}

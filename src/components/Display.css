@@ -1,0 +1,17 @@
+.display {
+  background: #2d2d44;
+  padding: 20px;
+  text-align: right;
+  min-height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.display-value {
+  color: white;
+  font-size: 3rem;
+  font-weight: 300;
+  word-break: break-word;
+  max-width: 100%;
+}

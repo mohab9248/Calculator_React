@@ -1,0 +1,9 @@
+.calculator {
+  width: 320px;
+  margin: 50px auto;
+  background: #1e1e2f;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}

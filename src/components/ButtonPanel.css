@@ -1,0 +1,14 @@
+.button-panel {
+  display: flex;
+  flex-direction: column;
+}
+
+.button-row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+/* special for zero button: spans two columns */
+.button-row:last-child .button:first-child {
+  grid-column: span 2;
+}

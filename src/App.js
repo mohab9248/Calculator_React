@@ -1,5 +1,12 @@
+import React from "react";
+import Calculator from "./components/Calculator";
+
 function App() {
-  return <div className="App">HEllo World</div>;
+  return (
+    <div className="app">
+      <Calculator />
+    </div>
+  );
 }
 
 export default App;
